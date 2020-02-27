@@ -23,7 +23,4 @@ EME Installtion Process
 6. while ruuning the server simply open index.html with any browser 
 7. Enjoy Chatting with EME.
 
-
-![](/home/bel024b/Pictures/Screenshot from 2020-02-27 10-25-10.png) 
-
 ©Jahintaqi Chisty
