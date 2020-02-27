@@ -1,11 +1,26 @@
-# Chatbot_Project
-## ChatBot with interactive UI using simple web socket server 
-### Description of files
-* Chatbot_train.py file trains the data available in the data folder. Once it is trained , the result will be stored as db.sqlite.
-* Chatbot.py uses this db.sqlite to generate responses for user queries.
-* server.py sends back message to the client.
+# EME - Offline Chatbot
+This guide is to provide a installation guide of EME
+## Table of Contents
 
-### How to run
-* Once you downloaded this project , Make sure you install the python packages mentioned in requirement.txt.
-* Go to Chatbot_Project directory and run python server.py.
-* Above step will open the server. Now right click the index.html page and open with brower. You will be able to see the chat window where you can start the conversation and test.
+EME Installtion Process
+
+
+1. Create a Virtual enviournment . 
+
+			sudo apt install python3 python3-venv python3-venv
+			python3 -m venv py3-venv
+
+2. Activate the virtual enviournment . 
+
+		source .../bin/activate
+
+3. After activate virtual enviournment install requirements.txt.
+	
+		  pip install --upgrade -r requirements.txt
+		  
+4. Train the chat bot . Simply run chatbot_train.py
+5. After that run server.py
+6. while ruuning the server simply open index.html with any browser 
+7. Enjoy Chatting with EME.
+
+©Jahintaqi Chisty
