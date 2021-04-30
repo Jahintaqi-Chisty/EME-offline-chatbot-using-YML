@@ -20,4 +20,4 @@ SimpleWebSocketServer==0.1.1
 six==1.13.0
 SQLAlchemy==1.2.19
 sqlparse==0.3.0
-urllib3==1.25.7
+urllib3==1.25.8
